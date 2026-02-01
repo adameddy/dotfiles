@@ -1,0 +1,23 @@
+{
+    "height": 40,
+    "spacing": 6,
+    "modules-left": [
+        "hyprland/workspaces"
+    ],
+    "modules-center": [],
+    "modules-right": [
+        "clock"
+    ],
+    "hyprland/workspaces": {
+        "all-outputs": false,
+        "on-click": "activate",
+        "persistent-workspaces": {
+            "DP-1": [1, 2, 3, 4],
+            "DP-2": [5, 6, 7, 8]
+        }
+    },
+    "clock": {
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format-alt": "{:%Y-%m-%d}"
+    }
+}

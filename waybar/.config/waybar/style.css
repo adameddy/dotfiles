@@ -5,7 +5,7 @@
 }
 
 window#waybar {
-    background-color: #313244;
+    background-color: #1e1e2e;
     color: #cdd6f4;
     transition-property: background-color;
     transition-duration: .5s;
@@ -35,11 +35,11 @@ button:hover {
 }
 
 #workspaces button.active {
-    background-color: #181825;
+    background-color: #313244;
 }
 
 #workspaces button:hover {
-    color: #6c7086;
+    color: #7f849c;
 }
 
 #mode {
